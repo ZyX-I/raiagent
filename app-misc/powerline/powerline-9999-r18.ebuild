@@ -29,7 +29,7 @@ DEPEND="
 	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	man? ( dev-python/sphinx[${PYTHON_USEDEP}] )
 	test? (
-		app-misc/screen
+		dev-python/pexpect
 		>=dev-vcs/git-1.7.2
 		dev-libs/libvterm
 		dev-python/psutil
